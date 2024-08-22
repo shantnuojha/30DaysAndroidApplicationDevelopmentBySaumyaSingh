@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_activity_background_light"
+    tools:context=".AndroidAppDevelopmentActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/main_activity_background_dark">
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/android_activity_header_message"
+            android:textColor="@color/main_activity_font_light"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:backgroundTint="@color/main_activity_background_light">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <TextView
+                android:id="@+id/textViewContent"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="@string/android_activity_content_message"
+                android:textColor="@color/main_activity_font_dark"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/main_activity_background_dark"
+        android:textColor="@color/main_activity_font_light"/>
+
+</LinearLayout>

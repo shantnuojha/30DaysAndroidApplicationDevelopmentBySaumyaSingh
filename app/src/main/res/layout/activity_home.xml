@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@color/main_activity_background_light"
+    tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/main_activity_background_light">
+
+        <Button
+            android:id="@+id/btnAndroid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Android"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+
+        <Button
+            android:id="@+id/btnIOS"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="iOS"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/main_activity_background_light">
+
+        <Button
+            android:id="@+id/btnWebDevelopment"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Web Development"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+
+        <Button
+            android:id="@+id/btnML"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Machine Learning"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/main_activity_background_light">
+
+        <Button
+            android:id="@+id/btnDataScience"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Data Science"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+
+        <Button
+            android:id="@+id/btnAI"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="AI"
+            android:textStyle="bold"
+            android:textColor="@color/main_activity_background_dark"
+            android:backgroundTint="@color/main_activity_font_light"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnCallUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Us"
+        android:textStyle="bold"
+        android:textColor="@color/main_activity_background_dark"
+        android:backgroundTint="@color/main_activity_font_light"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="@color/main_activity_background_dark"
+        android:backgroundTint="@color/main_activity_font_light"/>
+</LinearLayout>
